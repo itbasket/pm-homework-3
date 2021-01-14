@@ -286,6 +286,14 @@
 .stockItemsBlock{
     display: flex;
     justify-content: space-between;
+}
+
+.newProductItemsBlock > div,
+.recommendProductItemsBlock > div,
+.discountProductItemsBlock > div,
+.stockItemsBlock > div {
+    display: flex;
+    justify-content: space-between;
     margin-top: 30px;
     max-width: 100%;
     overflow-x: auto;
